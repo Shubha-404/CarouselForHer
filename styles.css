@@ -12,12 +12,12 @@ header {
   color: #fff;
   padding: 10px 0;
   text-align: left;
-  z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
+  z-index: 1000; 
 }
 
 nav h1 {
   margin: 0;
-  font-size: 20px; /* Adjust the font size as needed */
+  font-size: 20px; 
 }
 
 /* main {
@@ -145,16 +145,6 @@ main {
     margin: 1rem 0 1.5rem;
     font-size: 0.8rem;
   }
-
-  & button {
-    width: fit-content;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: white;
-    border: 2px solid white;
-    border-radius: 0.25rem;
-    padding: 0.75rem;
-    cursor: pointer;
-  }
 }
 
 .item:nth-of-type(2) .content {
@@ -183,9 +173,9 @@ main {
   user-select: none;
 
   & .btn {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     color: rgba(0, 0, 0, 0.7);
-    border: 2px solid rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.8);
     margin: 0 0.25rem;
     padding: 0.75rem;
     border-radius: 50%;
@@ -198,7 +188,7 @@ main {
 }
 
 
-audio {
+/* audio {
   visibility: hidden;
   width: 0%;
   max-width: 300px;
@@ -221,7 +211,7 @@ audio {
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
-}
+} */
 @media (width > 650px) and (width < 900px) {
   .content {
     & .title        { font-size: 1rem; }
@@ -236,6 +226,9 @@ audio {
     &:nth-child(4) { left: calc(50% + 170px); }
     &:nth-child(5) { left: calc(50% + 340px); }
     &:nth-child(6) { left: calc(50% + 510px); opacity: 0; }
+  }
+  nav h1 {
+    font-size: 17px;
   }
 }
 
@@ -253,5 +246,8 @@ audio {
     &:nth-child(4) { left: calc(50% + 140px); }
     &:nth-child(5) { left: calc(50% + 280px); }
     &:nth-child(6) { left: calc(50% + 420px); opacity: 0; }
+  }
+  nav h1 {
+    font-size: 15px;
   }
 }
