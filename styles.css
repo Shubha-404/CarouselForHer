@@ -8,10 +8,10 @@ header {
   top: 0;
   width: 100%;
   height: 40px;
-  background: linear-gradient(to bottom, rgba(247, 0, 255, 0.3), rgba(0, 153, 255, 0.3));
+  background: linear-gradient(to bottom, rgba(247, 0, 255, 0.5), rgba(0, 153, 255, 0));
   color: #fff;
   padding: 10px 0;
-  text-align: center;
+  text-align: left;
   z-index: 1000; /* Set a high z-index to ensure it appears above other elements */
 }
 
@@ -70,6 +70,7 @@ main {
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
