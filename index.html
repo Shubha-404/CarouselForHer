@@ -9,63 +9,73 @@
 </head>
 
 <body>
-    <div class="splashScreen" id="splashScreen">
-        <img src="splashimage1.jpg" alt="">
-    </div>
+    
     <!-- <h1>Hi Miss, Happy Birthday.....</h1> -->
+    <header>
+        <nav>
+            <h1>শুভ জন্মদিন প্রিয় ❤️</h1>
+        </nav>
+    </header>
     
     <main>
+        <div class="splashScreen" id="splashScreen">
+            <img src="splashimage1.jpg" alt="">
+        </div>
         <ul class='slider'>
+            <li class='item' style="background-image: url('image6.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"Friend First..."</h2>
+                    <p class='description'> "Through laughter and tears, in sunshine and storms, you're not just a friend; you're the melody in the soundtrack of my life. </p>
+                </div>
+            </li>
             <li class='item' style="background-image: url('image1.jpg')">
                 <div class='content'>
-                    <h2 class='title'>Your Amazing...</h2>
-                    <p class='description'> I was thinking about you today and couldn't help but smile. Your presence
-                        has a
-                        way of making everything better. </p>
+                    <h2 class='title'>Hand in Hand, Heart to Heart</h2>
+                    <p class='description'>Our worlds aligned, hearts connected, and dreams shared. </p>
                 </div>
             </li>
             <li class='item' style="background-image: url('image2.jpg')">
                 <div class='content'>
-                    <h2 class='title'>"You are Magical"</h2>
-                    <p class='description'> "In Love Under The Moon Above ❤️"</p>
+                    <h2 class='title'>"In Love Under The Moon Above ❤️"</h2>
+                    <p class='description'> "Imagine a magical night where love sparkles in the moonlight, creating a
+                        special connection between two hearts beneath the glowing sky."</p>
                 </div>
             </li>
             <li class='item' style="background-image: url('image3.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"When I Lost I find You..."</h2>
+                    <p class='description'>
+                        "Do you have a map? Because I just keep getting lost in your eyes every time I see you."
+                    </p>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('image4.jpg')">
+                <div class='content'>
+                    <h2 class='title'>"You are cute..."</h2>
+                    <p class='description'>
+                        "In your presence, my world is a symphony of smiles, each note echoing the sweetness that is you, Dear..
+                    </p>
+                </div>
+            </li>
+            <li class='item' style="background-image: url('image5.jpg')">
                 <div class='content'>
                     <h2 class='title'>"You are Always in my mind"</h2>
                     <p class='description'> "You're like a fine wine – you get better with time. 😍 </p>
                 </div>
             </li>
-            <li class='item' style="background-image: url('image4.jpg')">
-                <div class='content'>
-                    <h2 class='title'>"When i Lost I find You.."</h2>
-                    <p class='description'>
-                        "Do you have a map? Because I just keep getting lost in your eyes every time I see you. 🌟"
-                    </p>
-                </div>
-            </li>
-            <li class='item' style="background-image: url('image1.jpg')">
-                <div class='content'>
-                    <h2 class='title'>"You are cute .."</h2>
-                    <p class='description'>
-                        "If you were a cat, you'd purr-fectly steal my heart.
-                    </p>
-                </div>
-            </li>
         </ul>
+
         <nav class='nav'>
             <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
             <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
             <div class="audio-controls">
                 <button id="playPauseBtn">Play</button>
                 <audio id="audioPlayer" controls>
-                    <source src="tune.mp3" type="audio/mp3">
+                    <source src="Tomarei Koriyachi.mp3" type="audio/mp3">
                 </audio>
             </div>
         </nav>
     </main>
-    
-
 
 </body>
 <script src="logic.js"></script>
